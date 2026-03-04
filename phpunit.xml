@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit bootstrap="tests/bootstrap.php"
-         colors="true"
-         failOnWarning="true"
-         failOnRisky="true">
+<phpunit
+  bootstrap="tests/bootstrap.php"
+  colors="true"
+  failOnWarning="true"
+  failOnRisky="true"
+>
   <testsuites>
-    <testsuite name="BuildIS Test Suite">
+    <testsuite name="BuildIS">
       <directory>tests</directory>
     </testsuite>
   </testsuites>
