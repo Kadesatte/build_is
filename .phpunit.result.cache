@@ -1,0 +1,1 @@
+{"version":2,"defects":[],"times":{"CreateClientOrderFlowTest::testFullFlowClientOrderTechSpecReport":0.065,"ClientRepositoryTest::testInsertClient":0.004,"DbConnectionTest::testDbConnectionWorks":0.001,"OrderRepositoryTest::testInsertOrderLinkedToClientAndUser":0.055}}
