@@ -1,0 +1,6 @@
+{
+    "name": "julia/build_is",
+    "require-dev": {
+        "phpunit/phpunit": "^10.5.62"
+    }
+}

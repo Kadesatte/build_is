@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="tests/bootstrap.php"
+         colors="true"
+         failOnWarning="true"
+         failOnRisky="true">
+  <testsuites>
+    <testsuite name="BuildIS Test Suite">
+      <directory>tests</directory>
+    </testsuite>
+  </testsuites>
+
+  <php>
+    <env name="DB_HOST" value="localhost"/>
+    <env name="DB_NAME" value="build_is_test"/>
+    <env name="DB_USER" value="root"/>
+    <env name="DB_PASS" value=""/>
+  </php>
+</phpunit>
